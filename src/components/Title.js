@@ -16,7 +16,7 @@ const Title = ({ htmlType, children }) => {
     case('H6'):
       return <h6>{children}</h6>
     default:
-      return <h1>{children}</h1>
+      return <h2>{children}</h2>
   }
 };
 
